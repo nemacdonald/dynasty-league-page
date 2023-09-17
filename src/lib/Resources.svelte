@@ -14,7 +14,7 @@ import { dynasty } from './utils/helper';
         {
             name: "FantasyPros Superflex PPR Dynasty Rankings",
             url: "https://www.fantasypros.com/nfl/rankings/dynasty-superflex.php",
-        }
+        },
         {
             name: "FantasyPros Dynasty Trade Value Chart",
             url: `https://www.fantasypros.com/${today.getFullYear()}/${today.getMonth() + 1}/fantasy-football-rankings-dynasty-trade-value-chart-${today.toLocaleString('default', { month: 'long' }).toLowerCase()}-${today.getFullYear()}-update/`,
