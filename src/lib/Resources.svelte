@@ -13,11 +13,15 @@ import { dynasty } from './utils/helper';
         },
         {
             name: "FantasyPros Superflex PPR Dynasty Rankings",
-            url: "https://www.fantasypros.com/nfl/rankings/dynasty-superflex.php",
+            url: "https://www.fantasypros.com/nfl/rankings/dynasty-superflex",
+            icon: "insights",
+            premium: false,
+            separator: true,
+            dynastyOnly: false,
         },
         {
             name: "FantasyPros Dynasty Trade Value Chart",
-            url: `https://www.fantasypros.com/${today.getFullYear()}/${today.getMonth() + 1}/fantasy-football-rankings-dynasty-trade-value-chart-${today.toLocaleString('default', { month: 'long' }).toLowerCase()}-${today.getFullYear()}-update/`,
+            url: "https://www.fantasypros.com/2023/9/fantasy-football-rankings-dynasty-trade-value-chart-september-2023-update/",
             icon: "assessment",
             premium: false,
             separator: true,
