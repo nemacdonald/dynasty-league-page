@@ -55,7 +55,7 @@ import { dynasty } from './utils/helper';
             name: "Dynasty Fantasy Rankings and Trade Calculator",
             url: "https://www.fantasycalc.com/dynasty-rankings/",
             icon: "insights",
-            premium: true,
+            premium: false,
             separator: true,
             dynastyOnly: true,
         },
@@ -63,6 +63,7 @@ import { dynasty } from './utils/helper';
             name: "KeepTradeCut Development (College) Player Rankings",
             url: "https://keeptradecut.com/devy-rankings",
             icon: "assessment",
+            premium: false,
             separator: true,
             dynastyOnly: true,
         },
@@ -108,7 +109,7 @@ import { dynasty } from './utils/helper';
 
 <div class="pageBody">
     <div class="banner">
-        <h4>Helpful Dynasty Resources</h4>
+        <h4>Dynasty References and Resources</h4>
     </div>
 
     <List class="list" dense>
@@ -152,5 +153,5 @@ import { dynasty } from './utils/helper';
             {/if}
         {/each}
     </List>
-    <p class="disclaimer">*Some or all content is behind a paywall</p>
+    <p class="disclaimer">*There are plenty of resources, these are just a few suggestions.</p>
 </div>
