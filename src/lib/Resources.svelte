@@ -12,6 +12,14 @@ import { dynasty } from './utils/helper';
             dynastyOnly: true,
         },
         {
+            name: "Dynasty Process Trade Calculator",
+            url: "https://calc.dynastyprocess.com",
+            icon: "assessment",
+            premium: true,
+            separator: true,
+            dynastyOnly: true,
+        },
+        {
             name: "FantasyPros Superflex PPR Dynasty Rankings",
             url: "https://www.fantasypros.com/nfl/rankings/dynasty-superflex",
             icon: "insights",
@@ -153,5 +161,6 @@ import { dynasty } from './utils/helper';
             {/if}
         {/each}
     </List>
+    <p class="disclaimer">*Dynasty Process Trade Calculator does not value draft picks highly, recommended for player trades only.</p>
     <p class="disclaimer">*There are plenty of resources, these are just a few suggestions.</p>
 </div>
